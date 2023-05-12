@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="netflix.css" />
+
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
+      rel="stylesheet"
+    />
+    ">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <h1 id="title">NET<span>FLIX</span></h1>
+        <h3 id="description">Thank you for signing up to Netflix.</h3>
+      </header>
+
+      <section id="survey-form-contain">
+        <form action="result.html" method="get">
+          <div class="input-box">
+            <label for="">Name</label><br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="age">Age</label><br />
+            <input type="number" name="age" id="age" placeholder="age" />
+          </div>
+
+          <div class="input-box">
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for=""></label>
+          </div>
+          <div class="input-box">
+            <label for="">Content Type</label><br />
+            <select name="content" id="dropdown">
+              <option value="Movies">Movies</option>
+              <option value="Series">Series</option>
+              <option value="TV Shows">TV Shows</option>
+              <option value="Documentaries">Documentaries</option>
+            </select>
+          </div>
+
+          <div class="input-box" id="checkbox">
+            <label for="">Movie Type</label><br />
+            <input type="checkbox" name="movie1" id="first-check" />
+            <label for="first-check">Action-Adventures</label>
+
+            <input type="checkbox" name="movie2" id="second-check" />
+            <label for="second-check">Classic</label>
+
+            <input type="checkbox" name="movie3" id="third-check" />
+            <label for="third-check">Comedies</label>
+
+            <input type="checkbox" name="movie4" id="fourth-check" />
+            <label for="fourth-check">Dramas</label>
+
+            <br />
+
+            <input type="checkbox" name="movie5" id="fifth-check" />
+            <label for="fifth-check">Horror</label>
+
+            <input type="checkbox" name="movie6" id="sixth-check" />
+            <label for="sixth-check">Romantic</label>
+
+            <input type="checkbox" name="movie7" id="seventh-check" />
+            <label for="seventh-check">Sci-Fi&Fantasy</label>
+
+            <input type="checkbox" name="movie8" id="eighth-check" />
+            <label for="eighth-check">Documentaries</label><br />
+
+            <input type="checkbox" name="movie9" id="nineth-check" />
+            <label for="nineth-check">Family&Teen&Kids</label>
+
+            <input type="checkbox" name="movie10" id="tenth-check" />
+            <label for="tenth-check">Foreign Movies</label>
+
+            <input type="checkbox" name="movie11" id="eleventh-check" />
+            <label for="eleventh-check">Sports</label>
+
+            <input type="checkbox" name="movie12" id="twelfth-check" />
+            <label for="twelfth-check">TV Shows</label><br />
+          </div>
+
+          <div class="input-box" id="radio">
+            <label for="">Gender</label><br />
+            <input type="radio" name="gender" id="first-radio" value="Male" />
+            <label for="first-radio">Male</label>
+
+            <input
+              type="radio"
+              name="gender"
+              id="second-radio"
+              value="female"
+            />
+            <label for="second-radio">Female</label>
+
+            <input type="radio" name="gender" id="third-radio" value="Male" />
+            <label for="third-radio">Others</label>
+          </div>
+
+          <div class="input-box">
+            <label for="feedback">Feedback</label><br />
+            <textarea
+              name="feedbackk"
+              id="feedback"
+              cols="40"
+              rows="10"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" id="form-button">Send</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
